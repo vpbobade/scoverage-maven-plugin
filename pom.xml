@@ -96,6 +96,12 @@ under the License.
     <dependencies>
         <dependency>
             <groupId>org.scoverage</groupId>
+            <artifactId>scoverage-maven-plugin</artifactId>
+            <version>1.4.2-20200701.183256-1</version>
+        </dependency>
+      
+        <dependency>
+            <groupId>org.scoverage</groupId>
             <artifactId>scalac-scoverage-plugin_2.12</artifactId>
             <version>${scalac-scoverage-plugin.version}</version>
         </dependency>
